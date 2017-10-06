@@ -1,0 +1,16 @@
+■Class
+
+■Module
+
+■Package
+
+
+
+
+
+
+■포함관계
+class<module<package
+
+■파이썬의 전체적인 구조
+package < directory, module < class, fuction, variable(source code)

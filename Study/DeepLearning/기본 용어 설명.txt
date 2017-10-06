@@ -1,0 +1,42 @@
+1. Hypothesis : 완성되지 않은 학습 모델
+
+2. Cost function : Hyposhtesis의 오차값을 구해주는 함수
+
+3. Convex function : Cost function이 나와야 되는 모양
+
+4. Optimizer : Cost function을 이용해 cost가 최소인 w,b를 구해주는 것
+
+5. Gradient Descent Algorithm : Optimizer 종류 중 하나 (w = w - a코스트(w)의 미분값)
+
+6. One-hot Encoding : 하나만 1로 만들어 답을 구할 때 사용하는 방법
+
+7. Learning rate : 학습의 속도를 결정하기 위한 값
+
+8. Normalization(=Standardization) : 데이터 전처리(데이터의 값들이 서로 너무 큰 차이를 보일 때 사용)
+
+9. Overfitting : 학습모델이 과하게 학습데이터에 학습이 된 상황을 말함
+
+10. Regulalization : Overfitting을 막기 위한 기술적인 방법
+
+11. Validation set : 중간중간 학습모델을 점검하기 위한 데이터 셋
+
+12. Online Learning : 큰 데이터를 학습시킬 때 사용하는 방법 (데이터를 쪼개서 부분 부분 차례대로 분류기에 올려 학습을 시킴)
+
+13. Batch : 전체 데이터 셋에서 원하는 만큼의 부분을 떼어낸 것
+
+14. Epoch : 전체 데이터 셋을 한번씩 다 트레이닝 하는데 사용한 상황
+
+15. 미분 : 미분값 = 기울기 = 순간변화율 = 결과값에 미치는 영향(배율)
+
+16. 편미분 : 관심있는 변수에만 미분을 하는 것 (나머지 변수는 다 상수로 취급)
+
+17. Backpropagation : 역전파라는 뜻으로 에러값을 뒤로 역으로 전해주는 방법
+
+18. Vanishing Gradient : 다층신경망에서 발생하는 문제로 에러가 뒤로 전해지면 전해질수록 0에 가까워지는 현상 (이러면 학습 제대로 안됨)
+
+19. Restricted Boatman Machine(RBM) : 초기의 웨이트 값을 적절하게 초기화(전처리) 하는데 사용하는 방법
+
+20. 델타규칙(ChainRule) : 역전파에 사용되는 가장 핵심적인 규칙
+
+
+
