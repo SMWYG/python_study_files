@@ -1,0 +1,13 @@
+1. 학습(분류) 목표 설정
+
+2. 데이터 수집 (크롤링, 데이터셋 다운로드 etc.)
+
+3. 이미지 전처리 (grayscale, resize, augmentation, texting etc..)
+
+4. 데이터셋 준비 (data shuffle, train/test divide, labeling)
+
+5. 분류기 선택(제작) 및 학습 (Training set 이용)
+
+6. 분류기 테스트 (Test set 이용)
+
+7. 사용

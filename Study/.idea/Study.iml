@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="DeepLearningZeroToAll" />
     <orderEntry type="module" module-name="DeepLearning" />
     <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="MJUSchoolClass" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

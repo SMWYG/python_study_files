@@ -59,7 +59,7 @@ a=[1,2,3,4,5]
 a.append([7,8])
 print(a)
 
-#리스트 요소들 정렬 => append()
+#리스트 요소들 정렬 => sort()
 a=[1,2,5,4,0]
 a.sort()
 print(a)

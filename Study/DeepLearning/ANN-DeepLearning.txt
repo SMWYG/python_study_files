@@ -20,8 +20,12 @@
 이외에 학습을 잘하기 위해
 ◎ Learning rate 적절히 주기(너무 작거나 크지 않도록)
 ◎ 입력 데이터의 값들에 있어서 서로 너무 차이가 있지 않도록 전처리를 한다.(Standardization=Normalization)
-◎ 초기값(w) 잘 주기 (RBM 사용)
-◎ Overfiting(과적합) 문제의 해결을 위한 데이터수 늘리기, Regulalization(Dropout)
+◎ 초기값(w) 잘 주기 (RBM 사용 / 최근엔 RBM 사용 안함 => Xavier, LSUV 등)
+◎ Overfiting(과적합) 문제의 해결을 위한 데이터수 늘리기, Regulalization(Dropout (학습할때만 사용(0.5~0.7 프로로) 평가나 실제 데이터에서는 keep_prob를 1 로 해줘야함))
+◎ 앙상블(Ensemble) 사용
+◎ Optimizer를 다른것을 써도됨
+◎ Batch Normalizaion(배치 정규화)를 사용해도 됨 (Vanishing Gradient를 줄이기 위한 해결책 중 하나임)
+
 
 
 

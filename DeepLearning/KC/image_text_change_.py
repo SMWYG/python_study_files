@@ -1,33 +1,29 @@
-from PIL import Image
+from PIL import Image #이미지 resize를 위한 라이브러리
 import os
 import numpy as np
-from skimage.color import rgb2gray
+from skimage.color import rgb2gray #이미지 grayscale을 위한 라이브러리
 import matplotlib.pyplot as plt
 
 
 class ImagePreprocess:
     # __IMAGE_PATH = "/Users/kyungchankim/Documents/Spyder/Python_Study/RL_KERAS/data/mushroom_images/"
     # __DATA_PATH = "/Users/kyungchankim/Documents/Spyder/Python_Study/RL_KERAS/preprocessed_data/"
-    __DATA_PATH = "/Users/kyungchankim/Documents/Spyder/Python_Study/RL_KERAS/data/txt_data/"
+    __DATA_PATH = "C:\\Users\\dahan\\Downloads\\"
 
     def __init__(self):
-        """
-        로드할 이미지들을 어떻게 pre processing할 것인지 셋팅하는 초기화 함수
-        """
+
+        # 로드할 이미지들을 어떻게 pre processing할 것인지 셋팅하는 초기화 함수
 
         self.image_count = 0
-        # raw 이미지를 Thumbnail 가공 여부
-        self.isThumbnail = True
-
-        # 최종적으로 저장할 이미지의 size 설정
-        self.imgsize = (32, 32)
+        self.isThumbnail = True # raw 이미지를 Thumbnail 가공 여부
+        self.imgsize = (32, 32) # 최종적으로 저장할 이미지의 size 설정
 
 
         # Image load 하는 함수 실행
         # self.preprocessing(isThumbnail=self.isThumbnail)
 
-        # 최종 가공된 이미지를 Text로 바꾼 것을 이미지로 출력하는 함수 실행
-        self.text2Image()
+
+        self.text2Image() # 최종 가공된 이미지를 Text로 바꾼 것을 이미지로 출력하는 함수 실행
 
     def plot_image(self, image):
         """image array를 plot으로 보여주는 함수

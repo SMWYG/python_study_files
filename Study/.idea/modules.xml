@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../DeepLearning/.idea/DeepLearning.iml" filepath="$PROJECT_DIR$/../DeepLearning/.idea/DeepLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../DeepLearningZeroToAll/.idea/DeepLearningZeroToAll.iml" filepath="$PROJECT_DIR$/../DeepLearningZeroToAll/.idea/DeepLearningZeroToAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MJUSchoolClass/.idea/MJUSchoolClass.iml" filepath="$PROJECT_DIR$/../MJUSchoolClass/.idea/MJUSchoolClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Study.iml" filepath="$PROJECT_DIR$/.idea/Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
     </modules>

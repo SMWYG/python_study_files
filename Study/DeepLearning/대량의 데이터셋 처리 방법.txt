@@ -9,3 +9,6 @@ batch의 개념과 비슷
 
 2. Queue Runners를 사용
 여러 파일에서 데이터를 가져와서 Queue에 담을 수 있다.
+
+3. contrib 사용
+

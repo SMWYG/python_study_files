@@ -1,0 +1,7 @@
+Chorme에서는 웹 브라우저를 코드로써 프로그래밍적으로 다룰 수 있도록
+Web Driver 라는 웹 브라우저 API를 제공함.
+(크롬뿐만 아니라 IE Firefox 등 다양한 브라우저에서 자사의 Web Driver를 제공함)
+
+
+파이썬에는 이러한 Web Driver를 사용하기 위한 Selenium 이라는 라이브러리가
+존재한다.
